@@ -31,6 +31,7 @@ gem 'rswag-ui'
 gem 'tzinfo-data', platforms: %i[windows jruby]
 
 gem 'bootsnap', require: false
+gem 'devise', '~> 4.9', '>= 4.9.4'
 
 gem 'rack-cors'
 
@@ -46,6 +47,7 @@ group :development, :test do
 end
 
 group :test do
+  gem 'shoulda-matchers', '~> 6.4'
   gem 'simplecov', '~> 0.22.0', require: false
 end
 
